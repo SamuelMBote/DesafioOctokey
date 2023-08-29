@@ -10,8 +10,6 @@ export default async function fetchCEP({uf, localidade, logradouro}: IBusca) {
       throw new Error('Cep não encontrado');
     }
     const json = (await response.json()) as ICEP[];
-    console.log(response);
-    console.log(json);
     return json;
   } catch (error) {
     if (error instanceof Error) console.error(error);

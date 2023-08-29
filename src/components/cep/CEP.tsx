@@ -75,7 +75,6 @@ const PainelCEP = () => {
         busca.logradouro.length >= 3
       ) {
         const ceps = await fetchCEP(busca);
-        console.log(ceps);
         setLstCEP(ceps);
       }
     }, 1000);
