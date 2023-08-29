@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 const Usuario = () => {
   return (
-    <main className="container mx-auto">
+    <main className="container mx-auto my-12">
       <FormUsuario />
     </main>
   );

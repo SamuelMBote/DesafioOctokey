@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 const CEP = () => {
   return (
-    <main className="container mx-auto">
+    <main className="container mx-auto my-12">
       <PainelCEP />
     </main>
   );

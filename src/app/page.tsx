@@ -6,7 +6,7 @@ export const metadata: Metadata = {
 };
 export default function Home() {
   return (
-    <main className="">
+    <main className="container mx-auto my-12">
       <div className=" py-4 px-4 mx-auto max-w-screen-xl lg:py-8">
         <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
           <a

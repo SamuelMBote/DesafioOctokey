@@ -58,6 +58,7 @@ const FormUsuario = () => {
 
     if (validaDados(userData)) {
       console.log(userData);
+      alert('Enviado com sucesso');
     }
   };
   return (
