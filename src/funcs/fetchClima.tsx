@@ -4,7 +4,7 @@ import ICoordenadas from '@/interfaces/ICoordenadas';
 export default async function fetchClima(coords: ICoordenadas) {
   try {
     const response = await fetch(
-      `http://api.weatherapi.com/v1/current.json?key=${process.env.API_KEY}&q=${coords.latitude},${coords.longitude}`,
+      `https://api.weatherapi.com/v1/current.json?key=${process.env.API_KEY}&q=${coords.latitude},${coords.longitude}`,
     );
 
     if (!response.ok) {
